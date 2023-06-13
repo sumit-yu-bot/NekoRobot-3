@@ -45,7 +45,7 @@ from NekoRobot.modules.sql.afk_sql import check_afk_status, is_afk
 from NekoRobot.modules.sql.global_bans_sql import is_user_gbanned
 from NekoRobot.modules.sql.users_sql import get_user_num_chats
 
-NEKO_IMG = "https://telegra.ph/file/a21731c0c4c7f27a3ec16.jpg"
+NEKO_IMG = "https://graph.org/file/c2c0363f23318f06d1730.jpg"
 
 
 def no_by_per(totalhp, percentage):
@@ -458,14 +458,14 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/Programmer_Updates)\n\n"
-            + "\n╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n",
+            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/ab_sumit)\n\n"
+            + "\n╘══「 by [network](https://t.me/hindi_english_chatting_club 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
+                            text="Repo", url="https://t.me/ab_sumit"
                         )
                     ]
                 ]
@@ -479,16 +479,16 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/Programmer_Updates)\n\n"
+                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/ab_sumit)\n\n"
                 )
-                + "╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n"
+                + "╘══「 by [ • Network](https://t.me/hindi_english_chatting_club) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
+                            text="Repo", url="https://t.me/ab_sumit"
                         )
                     ]
                 ]
