@@ -75,7 +75,7 @@ def inlinequery(update: Update, _) -> None:
                 "keyboard": ".spb ",
             },
             {
-                "title": "Account info on Neko X",
+                "title": "Account info on belly",
                 "description": "Look up a Telegram account in Miku database",
                 "message_text": "Click the button below to look up a person in Neko X database using their Telegram ID",
                 "thumb_urL": "https://telegra.ph/file/0bf1b29555518a0d45948.jpg",
@@ -83,7 +83,7 @@ def inlinequery(update: Update, _) -> None:
             },
             {
                 "title": "About",
-                "description": "Know about Neko X",
+                "description": "Know about belly",
                 "message_text": "Click the button below to get to know about Neko X.",
                 "thumb_urL": "https://telegra.ph/file/0bf1b29555518a0d45948.jpg",
                 "keyboard": ".about ",
@@ -195,7 +195,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
         [
             [
                 InlineKeyboardButton(
-                    text="Report Error", url="https://t.me/Besties_XD"
+                    text="Report Error", url="https://t.me/hindi_english_chatting_club"
                 ),
                 InlineKeyboardButton(
                     text="Search again",
@@ -238,7 +238,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     kb = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="Support", url="https://t.me/Besties_XD"),
+                InlineKeyboardButton(text="Support", url="https://t.me/hindi_english_chatting_club"),
                 InlineKeyboardButton(
                     text="Sys Stats",
                     callback_data="pingCB",
