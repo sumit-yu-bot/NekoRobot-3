@@ -73,17 +73,17 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    NekoX = f"** ♡ Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}) I'm {BOT_NAME} **\n\n"
-    NekoX += f"**♡ My Uptime :** `{uptime}`\n\n"
-    NekoX += f"**♡ Python-telegram-bot Version :** `{ptb}`\n\n"
-    NekoX += f"**♡ Telethon Version :** `{tlhver}`\n\n"
-    NekoX += f"**♡ Pyrogram Version :** `{pyrover}`\n\n"
-    NekoX += "**♡ My Master :** [LovelyPrince](https://t.me/Its_IZ_PRINCE_xD) "
+    NekoX = f"** ♡ ʜᴇʏ [{yes.sender.first_name}](tg://user?id={yes.sender.id}) I'm {BOT_NAME} **\n\n"
+    NekoX += f"**♡ ᴍʏ ᴜᴘᴛɪᴍᴇ :** `{uptime}`\n\n"
+    NekoX += f"**♡ ᴘʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `{ptb}`\n\n"
+    NekoX += f"**♡ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{tlhver}`\n\n"
+    NekoX += f"**♡ ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀꜱɪᴏɴ :** `{pyrover}`\n\n"
+    NekoX += "**♡ ᴍʏ ᴍᴀꜱᴛᴇʀ :** [𝚋ₐ𝚋y ᵢ𝚝𝘴 𝘴ᵤᗰᵢ𝚝](https://t.me/tf_sumit) "
     NekoX += f"Thanks For Adding Me In {yes.chat.title}"
     BUTTON = [
         [
-            Button.url("【► Help ◄】", f"https://t.me/{BOT_USERNAME}?start=help"),
-            Button.url("【► Support ◄】", f"https://t.me/{SUPPORT_CHAT}"),
+            Button.url("ʜᴇʟᴘ", f"https://t.me/{BOT_USERNAME}?start=help"),
+            Button.url("ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{SUPPORT_CHAT}"),
         ]
     ]
     on = await neko.send_file(yes.chat_id, file=file2, caption=NekoX, buttons=BUTTON)
