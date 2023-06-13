@@ -112,43 +112,45 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgUAAxkBAAIIW2NL5v9F9hUom4xmsgNYb63SEfZZAAIZBgACYAF5VIerYoMcSln8KgQ",
-    "CAACAgUAAxkBAAIIT2NL5tVmdAO3n1o3cp9Jic9LkqJvAAK7AgACoU3RVLpdwYfQPmS9KgQ",
-    "CAACAgUAAxkBAAIIUGNL5tVNd0rwdoMv-uDVcZ3hHgwlAAIwAwACP9jQVMv2AfU-DvBfKgQ",
-    "CAACAgUAAxkBAAIIUmNL5tUzCtvS5E-XR8h3tFMSqVu7AAIGAwACNZnYVOTUhlBiHTQGKgQ",
-    "CAACAgUAAxkBAAIIUWNL5tVBEQAB2gWLSq0ymEPeAj5kmQAC3QEAAuu92VSPj3UkCiNvfioE",
+    "CAACAgQAAx0CcjCBxgACPixkiI35vDhn88_2eZAo_wAB7woKkwIAAiAIAAJMfWBSjUzv2eXVycQvBA",
+    "CAACAgEAAx0CcjCBxgACPh5kiI3HxKC4nersaG3oZighRcIwjAACBgMAAiGJSUUzehABmfZnGi8E",
+    "CAACAgUAAx0CcjCBxgACPh1kiI3ChDSObsh6N-KQiCcj-ZODMQACoAIAAtgWSVfkJPJDfpaECC8E",
+    "CAACAgQAAx0CcjCBxgACPtZkiJbOfAABoukK56I2_uVUGxmS2xsAAsYNAAK--WFRvLfp0i7br8EvBA",
+    "CAACAgEAAx0CcjCBxgACPtpkiJcCfX1r3J__eEZ284lWyHvbxAACcAIAAhyNYESPc_Sho7N4wy8E",
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/9996ec2eafdef4692102d.jpg) 」────
-*Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ *Uptime:* `{}`
-❍ `{}` *Users, Across* `{}` *Chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Guidelines Button Below To Know My Abilities ××
+────「 [{}](https://graph.org/file/1dfbca9bdcc9ce59f4ea6.jpg) 」────
+*ʜᴇʏ! {},*
+*───────────────────────
+ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ꜰᴜɴ ᴇxᴛʀᴀꜱ !*
+━━━━━━▰ • ʙᴇʟʟʏ • ▰━━━━━━
+❍ *ᴜᴘᴛɪᴍᴇ:* `{}`
+❍ `{}` *ᴜꜱᴇʀꜱ, ᴀᴄʀᴏꜱꜱ* `{}` *ᴄʜᴀᴛꜱ.*
+━━━━━━━▰•Rᴏʙᴏᴛ•▰━━━━━━━
+───────────────────────
+ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ! 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"Add {BOT_NAME} To Your Group",
+            text=f"ᴀᴅᴅ {BOT_NAME} ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ🍁", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/Awesome-Prince/NekoRobot-3.git"
+            text="ꜱᴏᴜʀᴄᴇ🥀", url="https://t.me/ab_sumit"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
+            text="ꜱᴜᴘᴘᴏʀᴛ🍃", url=f"https://t.me/hindi_english_chatting_club"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Programmer_Updates"
+            text="ᴜᴘᴅᴀᴛᴇꜱ⚡️", url="https://t.me/ab_sumit"
         ),
     ],
 ]
@@ -164,11 +166,11 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/5f272dc498e4cf91faf92.jpg",
-    "https://te.legra.ph/file/9d8190aba9ac3421af488.jpg",
-    "https://te.legra.ph/file/5b1ce336f0c0216224040.jpg",
-    "https://te.legra.ph/file/f1f67047d973f3aea4004.jpg",
-    "https://te.legra.ph/file/c2526c05d65fd2fbfa58b.jpg",
+    "https://graph.org/file/1dfbca9bdcc9ce59f4ea6.jpg",
+    "https://graph.org/file/00dba81edc3cea5ec6c47.jpg",
+    "https://graph.org/file/823bfec3e80451f397352.jpg",
+    "https://graph.org/file/5cefe1c9c019d39c35529.jpg",
+    "https://graph.org/file/c2c0363f23318f06d1730.jpg",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
@@ -262,7 +264,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="[► Back ◄]", callback_data="help_back"
+                                    text="⬅ʙᴀᴄᴋ", callback_data="help_back"
                                 )
                             ]
                         ]
@@ -308,12 +310,10 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚑 Support",
-                            url=f"https://telegram.dog/{SUPPORT_CHAT}",
+                            text="ꜱᴜᴘᴘᴏʀᴛ🍃", url=f"https://t.me/hindi_english_chatting_club",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://telegram.dog/Programmer_Updates",
+                            text="ᴜᴘᴅᴀᴛᴇꜱ⚡️", url="https://t.me/ab_sumit",
                         ),
                     ]
                 ]
@@ -386,10 +386,10 @@ def help_button(update: Update, context: CallbackContext) -> None:
                     [
                         [
                             InlineKeyboardButton(
-                                text="[► Back ◄]", callback_data="help_back"
+                                text="⬅ʙᴀᴄᴋ", callback_data="help_back"
                             ),
                             InlineKeyboardButton(
-                                text="[► Support ◄]", url=f"https://t.me/{SUPPORT_CHAT}"
+                                text="ꜱᴜᴘᴘᴏʀᴛ🍃", url=f"https://t.me/hindi_english_chatting_club"
                             ),
                         ]
                     ]
@@ -439,7 +439,7 @@ def neko_callback_data(update: Update, context: CallbackContext) -> None:
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="[► Back ◄]", callback_data="neko_back")]]
+                [[InlineKeyboardButton(text="⬅ʙᴀᴄᴋ", callback_data="neko_back")]]
             ),
         )
     elif query.data == "neko_back":
@@ -472,7 +472,7 @@ def get_help(update: Update, context: CallbackContext) -> None:
                 [
                     [
                         InlineKeyboardButton(
-                            text="Open In Private Chat",
+                            text="ᴏᴘᴇɴ ɪɴ ᴘʀɪᴀᴠᴛᴇ⚡️",
                             url=f"t.me/{NEKO_PTB.bot.username}?start=help",
                         )
                     ]
@@ -490,7 +490,7 @@ def get_help(update: Update, context: CallbackContext) -> None:
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="[► Back ◄]", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="⬅ʙᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
@@ -634,7 +634,7 @@ def get_settings(update: Update, context: CallbackContext) -> None:
                 [
                     [
                         InlineKeyboardButton(
-                            text="Settings",
+                            text="ꜱᴇᴛᴛɪɴɢꜱ🍁",
                             url=f"https://telegram.dog/{NEKO_PTB.bot.username}?start=stngs_{chat.id}",
                         )
                     ]
@@ -643,7 +643,7 @@ def get_settings(update: Update, context: CallbackContext) -> None:
         )
 
     else:
-        text = "Click here to check your settings."
+        text = "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ."
 
 
 def donate(update: Update, context: CallbackContext) -> None:
@@ -676,12 +676,10 @@ def donate(update: Update, context: CallbackContext) -> None:
                     [
                         [
                             InlineKeyboardButton(
-                                text="📢 Updates",
-                                url="https://telegram.dog/Programmer_Updates",
+                                text="ᴜᴘᴅᴀᴛᴇꜱ⚡️", url="https://t.me/ab_sumit",
                             ),
                             InlineKeyboardButton(
-                                text="🚑 Support",
-                                url=f"https://telegram.dog/{SUPPORT_CHAT}",
+                               text="ꜱᴜᴘᴘᴏʀᴛ🍃", url=f"https://t.me/hindi_english_chatting_club",
                             ),
                         ]
                     ]
