@@ -34,19 +34,19 @@ PHOTO = "https://telegra.ph/file/70061cba45ee824dad6f6.jpg"
 @register(pattern=("/repo"))
 async def awake(event):
     NEKO = """
-         We Are So Happy To Announce That We Have Public Our bellyRobot Repo. ✨🥀
+         We Are So Happy To Announce That We Have edited Our bellyRobot Repo
+         so the real repo is available on github . ✨🥀
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-「@NekoCuteBot」
+「@bellyvcbot」
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-Here is the Repo Deploy your Own NekoRobot.
+Here is the Repo Deploy your Own BellyRobot.
 ⚜️Repo ➤ https://t.me/ab_sumit
 
-i am sorry i edited it so not revaling 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 🔰 Thanks for your support 
 It's Fully stable Repo so you can deploy and make own Bot.
 ──────────────────
-Powered By:- @Besties_XD
+Powered By:- @tf_sumit
 """
 
     BUTTON = [
