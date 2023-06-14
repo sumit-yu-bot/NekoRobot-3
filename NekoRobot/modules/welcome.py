@@ -255,12 +255,12 @@ def new_member(update: Update, context: CallbackContext):
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="Support🚑",
-                                    url=f"https://t.me/Besties_XD",
+                                    text="ꜱᴜᴘᴘᴏʀᴛ",
+                                    url=f"https://t.me/hindi_enlish_chatting_club",
                                 ),
                                 InlineKeyboardButton(
-                                    text="Updates🛰️",
-                                    url="https://t.me/Programmer_Updates",
+                                    text="ᴜᴘᴅᴀᴛᴇꜱ",
+                                    url="https://t.me/ab_sumit",
                                 ),
                             ]
                         ]
